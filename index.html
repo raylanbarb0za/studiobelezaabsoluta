@@ -1,301 +1,536 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Studio Beleza Absoluta | Estética, Saúde e Beleza em Manaus</title>
-<meta name="description" content="Studio Beleza Absoluta — cabelo, unhas e estética facial e corporal no Centro Comercial Allegro, Manaus. Segunda a sábado, 9h30 às 19h. Agende pelo WhatsApp.">
-<link rel="shortcut icon" href="icon/favicon-32x32.png" type="image/x-icon">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Studio Beleza Absoluta | Estética, Saúde e Beleza em Manaus</title>
+    <meta
+      name="description"
+      content="Studio Beleza Absoluta — cabelo, unhas e estética facial e corporal no Centro Comercial Allegro, Manaus. Segunda a sábado, 9h30 às 19h. Agende pelo WhatsApp."
+    />
+    <link
+      rel="shortcut icon"
+      href="icon/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Sora:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav">
+        <a class="brand">
+          <span class="brand-mark">
+            <img src="icon/icon.jpg" alt="" />
+          </span>
+          <span class="brand-name"
+            >Studio Beleza Absoluta<span>Estética · Saúde · Beleza</span></span
+          >
+        </a>
+        <nav class="links" id="navLinks">
+          <a href="#inicio" id="link-inicio">Início</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#servicos">Serviços</a>
+          <a href="#diferenciais">Diferenciais</a>
+          <a href="#visita">Localização</a>
+        </nav>
+        <a
+          href="https://wa.me/92993179329"
+          target="_blank"
+          rel="noopener"
+          class="btn btn-solid"
+          >Agendar horário</a
+        >
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
 
-<header>
-  <div class="nav">
-    <a class="brand">
-      <span class="brand-mark">
-        <img src="icon/icon.jpg" alt="">
-      </span>
-      <span class="brand-name">Studio Beleza Absoluta<span>Estética · Saúde · Beleza</span></span>
+    <main id="top">
+      <section class="hero">
+        <img src="img/img-inicio.jpeg" alt="foto do interior do salão" />
+        <div class="wrap hero-inner">
+          <div>
+            <h1>Um momento só <em>seu</em>, dentro da sua rotina.</h1>
+            <p class="hero-sub">
+              O Studio Beleza Absoluta cuida do seu cabelo, das suas unhas e da
+              sua pele com atenção próxima e profissionais dedicados à você.
+            </p>
+            <div class="hero-cta">
+              <a
+                href="https://wa.me/5592993179329"
+                target="_blank"
+                rel="noopener"
+                class="btn btn-solid"
+                >Falar no WhatsApp</a
+              >
+              <a href="#servicos" class="btn btn-ghost">Ver serviços</a>
+            </div>
+          </div>
+          <div class="hero-side">
+            <dl>
+              <div>
+                <dt>Funcionamento</dt>
+                <dd>Segunda a sábado: 09:30h às 19:00</dd>
+              </div>
+              <div>
+                <dt>Endereço</dt>
+                <dd>
+                  Av. Torquato Tapajós, 6584 — Loja 14<br />Centro Comercial
+                  Allegro, Colônia Terra Nova
+                </dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <div class="strip" aria-hidden="true">
+        <div class="strip-track">
+          <span>Cabelo</span><span>Unhas</span><span>Estética Facial</span
+          ><span>Estética Corporal</span> <span>Cabelo</span><span>Unhas</span
+          ><span>Estética Facial</span><span>Estética Corporal</span>
+          <span>Cabelo</span><span>Unhas</span><span>Estética Facial</span
+          ><span>Estética Corporal</span>
+        </div>
+      </div>
+
+      <section class="about" id="sobre">
+        <div class="wrap about-grid">
+          <div class="about-figure">
+            <p>"Estética, saúde e beleza — agende seu momento."</p>
+          </div>
+          <div class="about-body">
+            <p>
+              Desde 2015, o Studio Beleza Absoluta é um espaço de cuidados
+              pessoais que atende Manaus com serviços de cabelo, unhas e
+              estética facial.
+            </p>
+            <p>
+              A equipe reúne profissionais especializados em estética e
+              cosmetologia, com um olhar atento à fisiologia da pele e à
+              individualidade de cada cliente — do primeiro atendimento ao
+              acompanhamento contínuo dos tratamentos.
+            </p>
+            <p>
+              Localizado no Centro Comercial Allegro, recebendo clientes de toda
+              a região com atendimento próximo e agendamento facilitado pelo
+              WhatsApp.
+            </p>
+            <div class="about-stats">
+              <div><strong>2015</strong><span>Ano de fundação</span></div>
+              <div>
+                <strong>Allegro</strong><span>Centro Comercial, Loja 14</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="servicos">
+        <div class="wrap">
+          <div class="section-head">
+            <div>
+              <span class="tag">O que fazemos</span>
+              <h2>Cuidado completo, em um só lugar</h2>
+            </div>
+            <p>
+              Áreas de atendimento do studio — consulte a equipe pelo WhatsApp
+              para conhecer os procedimentos disponíveis e agendar seu horário.
+            </p>
+          </div>
+          <div class="services-grid">
+            <div class="service-card">
+              <span class="service-num">01</span>
+              <h3>Cabelo Feminino</h3>
+              <p>
+                Corte, tratamento e cuidados capilares para todos os tipos de
+                cabelo.
+              </p>
+            </div>
+            <div class="service-card">
+              <span class="service-num">02</span>
+              <h3>Cabelo Masculino</h3>
+              <p>
+                Corte e cuidados capilares com profissionais especializados no
+                público masculino.
+              </p>
+            </div>
+            <div class="service-card">
+              <span class="service-num">03</span>
+              <h3>Manicure</h3>
+              <p>
+                Cuidados com as unhas das mãos, com atenção aos detalhes em
+                ambiente acolhedor.
+              </p>
+            </div>
+            <div class="service-card">
+              <span class="service-num">04</span>
+              <h3>Pedicure</h3>
+              <p>
+                Cuidados com as unhas dos pés, em ambiente tranquilo e
+                higienizado.
+              </p>
+            </div>
+            <div class="service-card">
+              <span class="service-num">05</span>
+              <h3>Micropigmentação de Sobrancelhas</h3>
+              <p>
+                Técnica para realçar e definir o design das sobrancelhas com
+                naturalidade.
+              </p>
+            </div>
+            <div class="service-card">
+              <span class="service-num">06</span>
+              <h3>Micropigmentação de Boca e Lábios</h3>
+              <p>
+                Procedimento para realçar cor e contorno labial, respeitando a
+                individualidade de cada cliente.
+              </p>
+            </div>
+          </div>
+
+          <div class="insta-strip-head">
+            <span class="tag">Direto do Instagram</span>
+            <a href="#" target="_blank">Seguir @studio →</a>
+          </div>
+
+          <div class="insta-scroll">
+            <div class="ph insta-photo"> 
+              <img src="img/feminino1.png" alt="">foto_01.jpg
+            </div>
+            <div class="ph insta-photo">
+              <img src="img/feminino2.png" alt="">foto_02.jpg
+            </div>
+            <div class="ph insta-photo">
+              <img src="img/masculino1.png" alt="">foto_03.jpg
+            </div>
+            <div class="ph insta-photo">
+              <img src="img/pedicure1.png" alt="">foto_04.jpg
+            </div>
+            <div class="ph insta-photo">
+              <img src="img/pedicure2.png" alt="">foto_05.jpg
+            </div>
+          </div>
+          <a href="https://wa.me/5592993179329" target="_blank" rel="noopener" class="btn btn-grid">Agendar atendimento</a>
+        </div>
+      </section>
+
+      <section class="diff" id="diferenciais">
+        <div class="wrap">
+          <div class="section-head">
+            <div>
+              <span class="tag">Por que o Studio</span>
+              <h2>O que torna o atendimento diferente</h2>
+            </div>
+            <p>
+              Um espaço pensado para quem busca cuidado próximo, técnico e
+              humano.
+            </p>
+          </div>
+          <div class="diff-list">
+            <div class="diff-item">
+              <span class="mark">✓</span>
+              <div>
+                <h4>Mais de uma década de história</h4>
+                <p>
+                  Atuando em Manaus desde 2015, com presença consolidada na
+                  Colônia Terra Nova.
+                </p>
+              </div>
+            </div>
+            <div class="diff-item">
+              <span class="mark">✓</span>
+              <div>
+                <h4>Equipe especializada</h4>
+                <p>
+                  Profissionais com formação em estética e cosmetologia à frente
+                  dos atendimentos.
+                </p>
+              </div>
+            </div>
+            <div class="diff-item">
+              <span class="mark">✓</span>
+              <div>
+                <h4>Localização acessível</h4>
+                <p>
+                  Dentro do Centro Comercial Allegro, na Av. Torquato Tapajós.
+                </p>
+              </div>
+            </div>
+            <div class="diff-item">
+              <span class="mark">✓</span>
+              <div>
+                <h4>Agendamento simples</h4>
+                <p>Contato direto e rápido pelo WhatsApp, sem burocracia.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="visit" id="visita">
+        <div class="wrap">
+          <div class="section-head">
+            <div>
+              <span class="tag">Encontre-nos</span>
+              <h2>Localização e horários de atendimento</h2>
+            </div>
+          </div>
+          <div class="visit-grid">
+            <div>
+              <div class="info-block">
+                <h4>Endereço</h4>
+                <p>
+                  Av. Torquato Tapajós, 6584 — Loja 14<br />Centro Comercial
+                  Allegro<br />Colônia Terra Nova, Manaus – AM<br />CEP
+                  69.093-415
+                </p>
+              </div>
+              <div class="info-block">
+                <h4>Horário de funcionamento</h4>
+                <div class="hours-row">
+                  <span>Segunda a sábado</span>
+                  <span>09:30h – 21:00h</span>
+                </div>
+              </div>
+              <div class="info-block">
+                <h4>Redes Sociais</h4>
+                <div class="hours-row">
+                  <a
+                    class="hours-row-icon"
+                    href="https://instagram.com/studiobelezaabsoluta"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Instagram"
+                  >
+                    <svg
+                      viewBox="0 0 64 64"
+                      width="20"
+                      height="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <defs>
+                        <linearGradient
+                          id="igGrad"
+                          x1="0%"
+                          y1="100%"
+                          x2="100%"
+                          y2="0%"
+                        >
+                          <stop offset="0%" stop-color="#feda75" />
+                          <stop offset="20%" stop-color="#fa7e1e" />
+                          <stop offset="45%" stop-color="#d62976" />
+                          <stop offset="70%" stop-color="#962fbf" />
+                          <stop offset="100%" stop-color="#4f5bd5" />
+                        </linearGradient>
+                      </defs>
+                      <rect
+                        x="2"
+                        y="2"
+                        width="60"
+                        height="60"
+                        rx="16"
+                        fill="url(#igGrad)"
+                      />
+                      <rect
+                        x="14"
+                        y="14"
+                        width="36"
+                        height="36"
+                        rx="10"
+                        fill="none"
+                        stroke="#ffffff"
+                        stroke-width="3.2"
+                      />
+                      <circle
+                        cx="32"
+                        cy="32"
+                        r="9.5"
+                        fill="none"
+                        stroke="#ffffff"
+                        stroke-width="3.2"
+                      />
+                      <circle cx="42.5" cy="21.5" r="2.2" fill="#ffffff" />
+                    </svg>
+                    Instagram</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="map-frame">
+              <iframe
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps?q=Studio+Beleza+Absoluta,+Av.+Torquato+Tapaj%C3%B3s,+6584,+Manaus+-+AM&output=embed"
+                title="Localização do Studio Beleza Absoluta no mapa"
+              >
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-final">
+        <div class="wrap">
+          <h2>Reserve seu momento de cuidado</h2>
+          <p>
+            Fale agora com o Studio Beleza Absoluta pelo WhatsApp e agende seu
+            horário no Centro Comercial Allegro.
+          </p>
+          <a
+            href="https://wa.me/5592993179329"
+            target="_blank"
+            rel="noopener"
+            class="btn btn-cta"
+            >Agendar pelo WhatsApp</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <span class="brand-name">Studio Beleza Absoluta</span>
+            <p>
+              Estética, saúde e beleza no Centro Comercial Allegro, Colônia
+              Terra Nova, Manaus – AM.
+            </p>
+          </div>
+          <div>
+            <h5>Navegação</h5>
+            <ul>
+              <li><a href="#sobre">Sobre</a></li>
+              <li><a href="#servicos">Serviços</a></li>
+              <li><a href="#diferenciais">Diferenciais</a></li>
+              <li><a href="#visita">Localização</a></li>
+            </ul>
+          </div>
+          <div>
+            <h5>Contato</h5>
+            <ul>
+              <li>
+                <a
+                  href="https://wa.me/5592993179329"
+                  target="_blank"
+                  rel="noopener"
+                  class="contact-link"
+                >
+                  <svg
+                    viewBox="0 0 64 64"
+                    width="32"
+                    height="32"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle cx="32" cy="32" r="30" fill="#25D366" />
+                    <path
+                      fill="#ffffff"
+                      d="M32 14c-9.94 0-18 8.06-18 18 0 3.18.83 6.16 2.28 8.75L14 46l5.44-2.24A17.9 17.9 0 0 0 32 46c9.94 0 18-8.06 18-18s-8.06-18-18-18zm0 33c-3 0-5.8-.88-8.15-2.4l-.58-.36-4.84 1.99 1.62-4.72-.38-.6A14.9 14.9 0 0 1 17 32c0-8.28 6.72-15 15-15s15 6.72 15 15-6.72 15-15 15z"
+                    />
+                    <path
+                      fill="#ffffff"
+                      d="M26.5 23.5c-.5-1.1-.9-1.1-1.35-1.12-.35-.02-.75-.02-1.15-.02s-1.05.15-1.6.75c-.55.6-2.1 2.05-2.1 5s2.15 5.8 2.45 6.2c.3.4 4.15 6.35 10.05 8.9 4.9 2.1 5.9 1.7 6.95 1.6 1.05-.1 3.4-1.4 3.9-2.75.5-1.35.5-2.5.35-2.75-.15-.25-.55-.4-1.15-.7-.6-.3-3.4-1.7-3.95-1.9-.55-.2-.9-.3-1.3.3-.4.6-1.5 1.9-1.85 2.3-.35.4-.7.45-1.3.15-.6-.3-2.55-.95-4.85-3-1.8-1.6-3-3.6-3.35-4.2-.35-.6-.05-.95.25-1.25.28-.28.6-.7.9-1.05.3-.35.4-.6.6-1 .2-.4.1-.75-.05-1.05-.15-.3-1.3-3.25-1.85-4.45z"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://instagram.com/studiobelezaabsoluta"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Instagram"
+                >
+                  <svg
+                    viewBox="0 0 64 64"
+                    width="32"
+                    height="32"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <defs>
+                      <linearGradient
+                        id="igGrad"
+                        x1="0%"
+                        y1="100%"
+                        x2="100%"
+                        y2="0%"
+                      >
+                        <stop offset="0%" stop-color="#feda75" />
+                        <stop offset="20%" stop-color="#fa7e1e" />
+                        <stop offset="45%" stop-color="#d62976" />
+                        <stop offset="70%" stop-color="#962fbf" />
+                        <stop offset="100%" stop-color="#4f5bd5" />
+                      </linearGradient>
+                    </defs>
+                    <rect
+                      x="2"
+                      y="2"
+                      width="60"
+                      height="60"
+                      rx="16"
+                      fill="url(#igGrad)"
+                    />
+                    <rect
+                      x="14"
+                      y="14"
+                      width="36"
+                      height="36"
+                      rx="10"
+                      fill="none"
+                      stroke="#ffffff"
+                      stroke-width="3.2"
+                    />
+                    <circle
+                      cx="32"
+                      cy="32"
+                      r="9.5"
+                      fill="none"
+                      stroke="#ffffff"
+                      stroke-width="3.2"
+                    />
+                    <circle cx="42.5" cy="21.5" r="2.2" fill="#ffffff" />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span
+            >© 2026 Studio Beleza Absoluta. Todos os direitos reservados.</span
+          >
+          <span>Av. Torquato Tapajós, 6584 — Loja 14, Manaus – AM</span>
+        </div>
+      </div>
+    </footer>
+
+    <a
+      href="https://wa.me/5592993179329"
+      target="_blank"
+      rel="noopener"
+      class="wa-float"
+      aria-label="Fale no WhatsApp"
+    >
+      <svg viewBox="0 0 32 32" fill="#F7F3EC">
+        <path
+          d="M16.001 3C9.373 3 4 8.373 4 15.001c0 2.386.703 4.61 1.914 6.478L4 29l7.696-1.879a11.94 11.94 0 0 0 4.305.79h.005c6.627 0 12-5.373 12-12.001C28.006 8.373 22.633 3 16.001 3zm7.02 17.02c-.297.834-1.47 1.526-2.404 1.723-.638.135-1.472.243-4.278-.918-3.593-1.487-5.905-5.143-6.086-5.383-.174-.24-1.462-1.947-1.462-3.715 0-1.767.923-2.638 1.253-3.001.297-.327.647-.409.862-.409.216 0 .432.002.62.011.2.01.468-.076.732.559.297.717.97 2.479 1.055 2.66.086.18.144.394.03.634-.115.24-.173.394-.343.605-.174.21-.359.47-.512.632-.174.18-.354.376-.152.735.203.359.899 1.484 1.931 2.403 1.328 1.183 2.446 1.55 2.804 1.724.359.174.567.144.777-.086.216-.235.87-.999 1.104-1.342.235-.343.47-.288.792-.173.323.115 2.055.97 2.407 1.147.353.174.588.264.677.409.086.144.086.836-.211 1.671z"
+        />
+      </svg>
     </a>
-    <nav class="links" id="navLinks">
-      <a href="#inicio" id="link-inicio">Início</a>
-      <a href="#sobre">Sobre</a>
-      <a href="#servicos">Serviços</a>
-      <a href="#diferenciais">Diferenciais</a>
-      <a href="#visita">Localização</a>
-    </nav>
-    <a href="https://wa.me/92993179329" target="_blank" rel="noopener" class="btn btn-solid">Agendar horário</a>
-    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
-  </div>
-</header>
 
-<main id="top">
-
-  <section class="hero"> <img src="img/img-inicio.jpeg" alt="foto do interior do salão">
-    <div class="wrap hero-inner">
-      <div>
-        <h1>Um momento só <em>seu</em>, dentro da sua rotina.</h1>
-        <p class="hero-sub">O Studio Beleza Absoluta cuida do seu cabelo, das suas unhas e da sua pele com atenção próxima e profissionais dedicados à você.</p>
-        <div class="hero-cta">
-          <a href="https://wa.me/5592993179329" target="_blank" rel="noopener" class="btn btn-solid">Falar no WhatsApp</a>
-          <a href="#servicos" class="btn btn-ghost">Ver serviços</a>
-        </div>
-      </div>
-      <div class="hero-side">
-        <dl>
-          <div>
-            <dt>Funcionamento</dt>
-            <dd>Segunda a sábado: 09:30h às 19:00</dd>
-          </div>
-          <div>
-            <dt>Endereço</dt>
-            <dd>Av. Torquato Tapajós, 6584 — Loja 14<br>Centro Comercial Allegro, Colônia Terra Nova</dd>
-          </div>
-        </dl>
-      </div>
-    </div>
-  </section>
-
-  <div class="strip" aria-hidden="true">
-    <div class="strip-track">
-      <span>Cabelo</span><span>Unhas</span><span>Estética Facial</span><span>Estética Corporal</span>
-      <span>Cabelo</span><span>Unhas</span><span>Estética Facial</span><span>Estética Corporal</span>
-      <span>Cabelo</span><span>Unhas</span><span>Estética Facial</span><span>Estética Corporal</span>
-    </div>
-  </div>
-
-  <section class="about" id="sobre">
-    <div class="wrap about-grid">
-      <div class="about-figure">
-        <p>"Estética, saúde e beleza — agende seu momento."</p>
-      </div>
-      <div class="about-body">
-        <p>Desde 2015, o Studio Beleza Absoluta é um espaço de cuidados pessoais que atende Manaus com serviços de cabelo, unhas e estética facial.</p>
-        <p>A equipe reúne profissionais especializados em estética e cosmetologia, com um olhar atento à fisiologia da pele e à individualidade de cada cliente
-           — do primeiro atendimento ao acompanhamento contínuo dos tratamentos.</p>
-        <p>Localizado no Centro Comercial Allegro, recebendo clientes de toda a região com atendimento próximo e agendamento facilitado pelo WhatsApp.</p>
-        <div class="about-stats">
-          <div><strong>2015</strong><span>Ano de fundação</span></div>
-          <div><strong>Allegro</strong><span>Centro Comercial, Loja 14</span></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="servicos">
-    <div class="wrap">
-      <div class="section-head">
-        <div>
-          <span class="tag">O que fazemos</span>
-          <h2>Cuidado completo, em um só lugar</h2>
-        </div>
-        <p>Áreas de atendimento do studio — consulte a equipe pelo WhatsApp para conhecer os procedimentos disponíveis e
-          agendar seu horário.</p>
-      </div>
-      <div class="services-grid">
-        <div class="service-card">
-          <span class="service-num">01</span>
-          <h3>Cabelo Feminino</h3>
-          <p>Corte, tratamento e cuidados capilares para todos os tipos de cabelo.</p>
-        </div>
-        <div class="service-card">
-          <span class="service-num">02</span>
-          <h3>Cabelo Masculino</h3>
-          <p>Corte e cuidados capilares com profissionais especializados no público masculino.</p>
-        </div>
-        <div class="service-card">
-          <span class="service-num">03</span>
-          <h3>Manicure</h3>
-          <p>Cuidados com as unhas das mãos, com atenção aos detalhes em ambiente acolhedor.</p>
-        </div>
-        <div class="service-card">
-          <span class="service-num">04</span>
-          <h3>Pedicure</h3>
-          <p>Cuidados com as unhas dos pés, em ambiente tranquilo e higienizado.</p>
-        </div>
-        <div class="service-card">
-          <span class="service-num">05</span>
-          <h3>Micropigmentação de Sobrancelhas</h3>
-          <p>Técnica para realçar e definir o design das sobrancelhas com naturalidade.</p>
-        </div>
-        <div class="service-card">
-          <span class="service-num">06</span>
-          <h3>Micropigmentação de Boca e Lábios</h3>
-          <p>Procedimento para realçar cor e contorno labial, respeitando a individualidade de cada cliente.</p>
-        </div>
-      </div>
-      <a href="https://wa.me/5592993179329" target="_blank" rel="noopener" class="btn btn-grid">Agendar atendimento</a>
-    </div>
-  </section>
-
-  <section class="diff" id="diferenciais">
-    <div class="wrap">
-      <div class="section-head">
-        <div>
-          <span class="tag">Por que o Studio</span>
-          <h2>O que torna o atendimento diferente</h2>
-        </div>
-        <p>Um espaço pensado para quem busca cuidado próximo, técnico e humano.</p>
-      </div>
-      <div class="diff-list">
-        <div class="diff-item">
-          <span class="mark">✓</span>
-          <div><h4>Mais de uma década de história</h4><p>Atuando em Manaus desde 2015, com presença consolidada na Colônia Terra Nova.</p></div>
-        </div>
-        <div class="diff-item">
-          <span class="mark">✓</span>
-          <div><h4>Equipe especializada</h4><p>Profissionais com formação em estética e cosmetologia à frente dos atendimentos.</p></div>
-        </div>
-        <div class="diff-item">
-          <span class="mark">✓</span>
-          <div><h4>Localização acessível</h4><p>Dentro do Centro Comercial Allegro, na Av. Torquato Tapajós.</p></div>
-        </div>
-        <div class="diff-item">
-          <span class="mark">✓</span>
-          <div><h4>Agendamento simples</h4><p>Contato direto e rápido pelo WhatsApp, sem burocracia.</p></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="visit" id="visita">
-    <div class="wrap">
-      <div class="section-head">
-        <div>
-          <span class="tag">Encontre-nos</span>
-          <h2>Localização e horários de atendimento</h2>
-        </div>
-      </div>
-      <div class="visit-grid">
-        <div>
-          <div class="info-block">
-            <h4>Endereço</h4>
-            <p>Av. Torquato Tapajós, 6584 — Loja 14<br>Centro Comercial Allegro<br>Colônia Terra Nova, Manaus – AM<br>CEP 69.093-415</p>
-          </div>
-          <div class="info-block">
-            <h4>Horário de funcionamento</h4>
-            <div class="hours-row">
-              <span>Segunda a sábado</span>
-              <span>09:30h – 21:00h</span>
-            </div>
-          </div>
-          <div class="info-block">
-            <h4>Redes Sociais</h4>
-            <div class="hours-row">
-              <a class="hours-row-icon" href="https://instagram.com/studiobelezaabsoluta" target="_blank" rel="noopener"
-                aria-label="Instagram">
-                <svg viewBox="0 0 64 64" width="20" height="20" xmlns="http://www.w3.org/2000/svg">
-                  <defs>
-                    <linearGradient id="igGrad" x1="0%" y1="100%" x2="100%" y2="0%">
-                      <stop offset="0%" stop-color="#feda75" />
-                      <stop offset="20%" stop-color="#fa7e1e" />
-                      <stop offset="45%" stop-color="#d62976" />
-                      <stop offset="70%" stop-color="#962fbf" />
-                      <stop offset="100%" stop-color="#4f5bd5" />
-                    </linearGradient>
-                  </defs>
-                  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#igGrad)" />
-                  <rect x="14" y="14" width="36" height="36" rx="10" fill="none" stroke="#ffffff" stroke-width="3.2" />
-                  <circle cx="32" cy="32" r="9.5" fill="none" stroke="#ffffff" stroke-width="3.2" />
-                  <circle cx="42.5" cy="21.5" r="2.2" fill="#ffffff" />
-                </svg>
-              Instagram</a>
-            </div>
-          </div>
-        </div>
-        <div class="map-frame">
-          <iframe
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-            src="https://www.google.com/maps?q=Studio+Beleza+Absoluta,+Av.+Torquato+Tapaj%C3%B3s,+6584,+Manaus+-+AM&output=embed"
-            title="Localização do Studio Beleza Absoluta no mapa">
-          </iframe>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="cta-final">
-    <div class="wrap">
-      <h2>Reserve seu momento de cuidado</h2>
-      <p>Fale agora com o Studio Beleza Absoluta pelo WhatsApp e agende seu horário no Centro Comercial Allegro.</p>
-      <a href="https://wa.me/5592993179329" target="_blank" rel="noopener" class="btn btn-cta">Agendar pelo WhatsApp</a>
-    </div>
-  </section>
-
-</main>
-
-<footer>
-  <div class="wrap">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <span class="brand-name">Studio Beleza Absoluta</span>
-        <p>Estética, saúde e beleza no Centro Comercial Allegro, Colônia Terra Nova, Manaus – AM.</p>
-      </div>
-      <div>
-        <h5>Navegação</h5>
-        <ul>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#servicos">Serviços</a></li>
-          <li><a href="#diferenciais">Diferenciais</a></li>
-          <li><a href="#visita">Localização</a></li>
-        </ul>
-      </div>
-      <div>
-        <h5>Contato</h5>
-        <ul>
-          <li>
-            <a href="https://wa.me/5592993179329" target="_blank" rel="noopener" class="contact-link">
-              <svg viewBox="0 0 64 64" width="32" height="32" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="32" cy="32" r="30" fill="#25D366" />
-                <path fill="#ffffff"
-                  d="M32 14c-9.94 0-18 8.06-18 18 0 3.18.83 6.16 2.28 8.75L14 46l5.44-2.24A17.9 17.9 0 0 0 32 46c9.94 0 18-8.06 18-18s-8.06-18-18-18zm0 33c-3 0-5.8-.88-8.15-2.4l-.58-.36-4.84 1.99 1.62-4.72-.38-.6A14.9 14.9 0 0 1 17 32c0-8.28 6.72-15 15-15s15 6.72 15 15-6.72 15-15 15z" />
-                <path fill="#ffffff"
-                  d="M26.5 23.5c-.5-1.1-.9-1.1-1.35-1.12-.35-.02-.75-.02-1.15-.02s-1.05.15-1.6.75c-.55.6-2.1 2.05-2.1 5s2.15 5.8 2.45 6.2c.3.4 4.15 6.35 10.05 8.9 4.9 2.1 5.9 1.7 6.95 1.6 1.05-.1 3.4-1.4 3.9-2.75.5-1.35.5-2.5.35-2.75-.15-.25-.55-.4-1.15-.7-.6-.3-3.4-1.7-3.95-1.9-.55-.2-.9-.3-1.3.3-.4.6-1.5 1.9-1.85 2.3-.35.4-.7.45-1.3.15-.6-.3-2.55-.95-4.85-3-1.8-1.6-3-3.6-3.35-4.2-.35-.6-.05-.95.25-1.25.28-.28.6-.7.9-1.05.3-.35.4-.6.6-1 .2-.4.1-.75-.05-1.05-.15-.3-1.3-3.25-1.85-4.45z" />
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a href="https://instagram.com/studiobelezaabsoluta" target="_blank" rel="noopener" aria-label="Instagram">
-              <svg viewBox="0 0 64 64" width="32" height="32" xmlns="http://www.w3.org/2000/svg">
-                <defs>
-                  <linearGradient id="igGrad" x1="0%" y1="100%" x2="100%" y2="0%">
-                    <stop offset="0%" stop-color="#feda75" />
-                    <stop offset="20%" stop-color="#fa7e1e" />
-                    <stop offset="45%" stop-color="#d62976" />
-                    <stop offset="70%" stop-color="#962fbf" />
-                    <stop offset="100%" stop-color="#4f5bd5" />
-                  </linearGradient>
-                </defs>
-                <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#igGrad)" />
-                <rect x="14" y="14" width="36" height="36" rx="10" fill="none" stroke="#ffffff" stroke-width="3.2" />
-                <circle cx="32" cy="32" r="9.5" fill="none" stroke="#ffffff" stroke-width="3.2" />
-                <circle cx="42.5" cy="21.5" r="2.2" fill="#ffffff" />
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </div>
-      </div>
-    <div class="footer-bottom">
-      <span>© 2026 Studio Beleza Absoluta. Todos os direitos reservados.</span>
-      <span>Av. Torquato Tapajós, 6584 — Loja 14, Manaus – AM</span>
-    </div>
-  </div>
-</footer>
-
-<a href="https://wa.me/5592993179329" target="_blank" rel="noopener" class="wa-float" aria-label="Fale no WhatsApp">
-  <svg viewBox="0 0 32 32" fill="#F7F3EC"><path d="M16.001 3C9.373 3 4 8.373 4 15.001c0 2.386.703 4.61 1.914 6.478L4 29l7.696-1.879a11.94 11.94 0 0 0 4.305.79h.005c6.627 0 12-5.373 12-12.001C28.006 8.373 22.633 3 16.001 3zm7.02 17.02c-.297.834-1.47 1.526-2.404 1.723-.638.135-1.472.243-4.278-.918-3.593-1.487-5.905-5.143-6.086-5.383-.174-.24-1.462-1.947-1.462-3.715 0-1.767.923-2.638 1.253-3.001.297-.327.647-.409.862-.409.216 0 .432.002.62.011.2.01.468-.076.732.559.297.717.97 2.479 1.055 2.66.086.18.144.394.03.634-.115.24-.173.394-.343.605-.174.21-.359.47-.512.632-.174.18-.354.376-.152.735.203.359.899 1.484 1.931 2.403 1.328 1.183 2.446 1.55 2.804 1.724.359.174.567.144.777-.086.216-.235.87-.999 1.104-1.342.235-.343.47-.288.792-.173.323.115 2.055.97 2.407 1.147.353.174.588.264.677.409.086.144.086.836-.211 1.671z"/></svg>
-</a>
-
-<script src="index.js"></script>
-</body>
+    <script src="index.js"></script>
+  </body>
 </html>
