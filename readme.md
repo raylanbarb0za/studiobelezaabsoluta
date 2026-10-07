@@ -32,6 +32,8 @@ Este projeto faz parte dos meus estudos em programação e foi desenvolvido para
 
 Algumas informações, imagens e conteúdos utilizados no site foram obtidos de fontes públicas disponíveis na internet, incluindo informações encontradas no Google, e são utilizados exclusivamente para fins de demonstração do projeto.
 
+O projeto não representa necessariamente um site oficial ou possui vínculo comercial com o estabelecimento apresentado.
+
 ## Como Executar
 
 1. Clone este repositório:
