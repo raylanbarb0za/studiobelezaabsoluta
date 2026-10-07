@@ -34,7 +34,11 @@ Algumas informações, imagens e conteúdos utilizados no site foram obtidos de 
 
 O projeto não representa necessariamente um site oficial ou possui vínculo comercial com o estabelecimento apresentado.
 
-## Como Executar
+## Acesse o site
+
+https://studiobelezaabsoluta.vercel.app
+
+## Clone para seu repositório local
 
 1. Clone este repositório:
 
