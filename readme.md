@@ -28,6 +28,10 @@ Meta tags básicas para SEO.
 
 Este projeto faz parte dos meus estudos em programação e foi desenvolvido para colocar em prática conceitos aprendidos durante minha formação em Sistemas de Informação.
 
+## Aviso
+
+Algumas informações, imagens e conteúdos utilizados no site foram obtidos de fontes públicas disponíveis na internet, incluindo informações encontradas no Google, e são utilizados exclusivamente para fins de demonstração do projeto.
+
 ## Como Executar
 
 1. Clone este repositório:
